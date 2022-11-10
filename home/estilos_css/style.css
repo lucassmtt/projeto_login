@@ -64,7 +64,6 @@ div#form{
 }
 
 input.input{
-    position: relative;
     border-radius: 5px;
     height: 25px;
     border: none;

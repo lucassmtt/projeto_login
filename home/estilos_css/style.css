@@ -71,7 +71,7 @@ input.input{
 
 input.input:hover{
     background-color: #6666664b;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 form input[type=submit]{

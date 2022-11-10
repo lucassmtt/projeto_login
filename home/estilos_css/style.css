@@ -44,7 +44,7 @@ section#login{
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     box-shadow: 2px 3px 1px 1px rgba(0, 0, 0, 0.500);
     transition: width .5s, height .5s;
@@ -62,6 +62,55 @@ div#form{
     display: block;
     padding: 14px;
 }
+
+input.input{
+    position: relative;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+}
+
+input.input:hover{
+    background-color: #6666664b;
+    color: white;
+}
+
+form > div.campo{
+
+}
+
+form input[type=submit]{
+    display: block;
+    width: 97%;
+    height: 25px;
+    background-color:#EFA5BC;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: #835b67;
+}
+
+form button{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 97%;
+    height: 25px;
+    background-color:#EFA5BC;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #835b67;
+}
+
 
 main > section > div > form > div.campo{
     padding-bottom: 20px;

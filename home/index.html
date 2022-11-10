@@ -20,17 +20,18 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="email" id="idemail" size="17" placeholder="  Seu email" autocomplete="email" required minlength="5" maxlength="50">
+                        <input type="email" name="email" id="idemail" class="input" size="17" placeholder="  Seu email" autocomplete="email" required minlength="5" maxlength="50">
                         <label for="idemail"></label>
                     </div>
                     <div class="campo">
                         <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="senha" id="idsenha" size="17" placeholder="  Sua senha" autocomplete="current-password" minlength="8" maxlength="50">
+                        <input type="password" name="senha" id="idsenha" class="input" size="17" placeholder="  Sua senha" autocomplete="current-password" minlength="8" maxlength="50" required>
                         <label for="idsenha"></label>
                     </div>
+                    <div>
                     <input type="submit" value="Entrar" onclick="fake()">
                     <button onclick="fake()">Esqueci a senha 
-                    </button><span class="material-symbols-outlined">key</span>
+                    </div>
                 </form>
             </div>
             <!--  "<span class="material-symbols-outlined">arrow_downward</span>"  -->

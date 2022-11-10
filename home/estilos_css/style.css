@@ -43,8 +43,8 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 250px;
-    height: 525px;
+    width: 270px;
+    height: 540px;
     border-radius: 20px;
     box-shadow: 2px 3px 1px 1px rgba(0, 0, 0, 0.500);
     transition: width .5s, height .5s;
@@ -81,7 +81,7 @@ form > div.campo{
 form input[type=submit]{
     display: block;
     width: 97%;
-    height: 25px;
+    height: 35px;
     background-color:#EFA5BC;
     border: none;
     color: rgb(255, 255, 255);
@@ -98,7 +98,7 @@ form button{
     float: left;
     margin-top: 10px;
     width: 97%;
-    height: 25px;
+    height: 35px;
     background-color:#EFA5BC;
     border: none;
     color: rgb(255, 255, 255);

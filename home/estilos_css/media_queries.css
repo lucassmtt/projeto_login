@@ -61,6 +61,7 @@
 
     input.input{
         width: 400px;
+        transform: translateY(-6px);
     }
 
     input[type=submit]{

@@ -74,10 +74,6 @@ input.input:hover{
     color: white;
 }
 
-form > div.campo{
-
-}
-
 form input[type=submit]{
     display: block;
     width: 97%;
